@@ -3,7 +3,7 @@
 }
 
 .hero-image-h {
-    background-image: url("./Te Puia Resources/red_posts.jpg");
+    background-image: url("./Te Puia Resources/hero.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .hero-image {
-    background-image: url("./Te Puia Resources/red_posts.jpg");
+    background-image: url("./Te Puia Resources/hero.jpg");
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,4 +49,20 @@
     padding: 3px 4px 3px 4px;
     text-align: center;
     outline: 1px solid rgb(80, 80, 80);
+}
+
+.maingrid {
+    display: grid;
+    justify-content: space-between;
+    margin: 50px 50px 75px 50px;
+}
+
+.mainopt {
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main_img {
+    width: auto;
 }
