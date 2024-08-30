@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Puia - Schools</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <section class="hero-image-h">
-            <h1 class="hero-text">Te Puia</h1>
+        <section class="hero-image">
+            <h1 class="hero-text">Carving and Weaving Schools</h1>
         </section>
 
         <section class="navbar">
-            <a href="index.html" class="navbutton" id="home">Home</a>
-            <a href="geo.html" class="navbutton" id="geo">Geothermal Attractions</a>
-            <a href="kiwi.html" class="navbutton" id="kiwi">Kiwi Conservation</a>
-            <a href="schools.html" class="currentnav" id="schools">Carving and Weaving School</a>
-            <a href="store.html" class="navbutton" id="store">Art Gallery / Gift Shop</a>
+            <a href="index.html" class="navbutton">Home</a>
+            <a href="geo.html" class="navbutton">Geothermal Attractions</a>
+            <a href="kiwi.html" class="navbutton">Kiwi Conservation</a>
+            <a href="schools.html" class="currentnav">Carving and Weaving School</a>
+            <a href="store.html" class="navbutton">Art Gallery / Gift Shop</a>
         </section>
     </header>
 
@@ -28,34 +29,36 @@
         </section>
 
         <section class="option_grid">
-            <div>
-                <img src="Te Puia Resources/carving_school.jpg" 
-                 alt="national wood carving school">
+            <div class="mainopt">
+                <img src="./Te Puia Resources/carving_school.jpg" 
+                 alt="national wood carving school" class="main_img">
                 <h4>Whakairo Rākau - National Wood Carving School</h4>
                 <p>
                     Since the first intake to Te Wānanga Whakairo, in 1967.students have been learning under the expert guidance of master carvers who were once trainees at the school.
                 </p>
                 <a href="wood.html">Learn More →</a>
             </div>
-            <div>
-                <img src="/Te Puia Resources/weaving_school2.jpg" alt="">
+            <div class="mainopt">
+                <img src="./Te Puia Resources/weaving_school2.jpg" alt="" class="main_img">
                 <h4>Te Rito - National Weaving School</h4>
-                <p>
-                    Te Rito, named after the baby shoot at the heart of the flax bush, was built in 1994. At this school, students have the honour of learning traditional Māori weaving techniques, as taught by experienced tutors.
-                </p>
-                <a href="flax.html">Learn More →</a>
+                <div opt_content>
+                    <p>
+                        Te Rito, named after the baby shoot at the heart of the flax bush, was built in 1994. At this school, students have the honour of learning traditional Māori weaving techniques, as taught by experienced tutors.
+                    </p>
+                    <a href="flax.html">Learn More →</a>
+                </div>
             </div>
-            <div>
-                <img src="/Te Puia Resources/stone_carving.jpg" alt="">
+            <div class="mainopt">
+                <img src="./Te Puia Resources/stone_carving.jpg" alt="" class="main_img">
                 <h4>Te Takapū - National Stone & Bone Carving School</h4>
                 <p>
                     Te Takapū was first opened on October 5, 1009. Here, students learn the revered tradition of carving pounamu (Nephrite-Jade/Greenstone), bone and stone.
                 </p>
                 <a href="stone_and_bone.html">Learn More →</a>
             </div>
-            <div>
-                <img src="/Te Puia Resources/greenstone_necklace.jpg" 
-                alt="greenstone necklaces">
+            <div class="mainopt">
+                <img src="./Te Puia Resources/greenstone_necklace.jpg" 
+                alt="greenstone necklaces" class="main_img">
                 <h4>Art Gallery / Gift Shop</h4>
                 <p>
                     Here at Te Puia we offer you the chance to take away traditional Māori artworks made at our National Carving and Weaving Schools. We also accept commissions.
@@ -63,7 +66,7 @@
                 <a href="store.html">Learn More →</a>
             </div>
         </section>
-        <section>
+        <section id="arts_and_crafts_act">
             <h3>
                 National Schools of Wood Carving, Weaving, and Stone & Bone Carving
             </h3>
