@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Te Puia</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +11,7 @@
             <h1 class="hero-text">Home</h1>
         </section>
 
-        <section class="navbar">
+        <div class="navbar">
             <a href="index.html" class="currentnav" id="home">
                 Home
             </a>
@@ -27,16 +27,16 @@
             <a href="store.html" class="navbutton" id="store">
                 Art Gallery / Gift Shop
             </a>
-        </section>
+        </div>
     </header>
     <main>
         <section>
-            <h2 class="mainheading">
+            <h2 id="mainheading">
                 Te Puia - New Zealand's Geothermal Wonderland
             </h2>
             <div id="titletxtgrid">
                 <div>
-                    <img src="./Te Puia Resources/red_posts2.jpg" 
+                    <img src="./Te_Puia_Resources/red_posts2.jpg" 
                         alt="entrance to geyser walk" id="titleimg">
                 </div>
                 <div>
@@ -61,55 +61,72 @@
             <p>
                 Te Puia is located at 20 Hemo Road, Tihiotonga, Rotorua 3040
             </p>
-            <img src="./Te Puia Resources/location.jpg" alt="Te Puia Map" 
+            <img src="./Te_Puia_Resources/location.jpg" alt="Te Puia Map" 
                 id="location_img">
         </section>
-        <section class="maingrid">
+        <div class="maingrid">
             <a href="geo.html">
                 <div class="mainopt">
                     <img class="main_img" 
-                        src="./Te Puia Resources/geyser2.1.jpg" alt="geyser">
+                        src="./Te_Puia_Resources/geyser2.1.jpg" alt="geyser">
                     <p class="maintxt">Geothermal Attractions →</p>
                 </div>
             </a>
             <a href="kiwi.html">
                 <div class="mainopt">
                     <img class="main_img" 
-                        src="./Te Puia Resources/Kiwi 1.jpg" alt="kiwi">
-                    <p>Kiwi Conservation →</p>
+                        src="./Te_Puia_Resources/Kiwi1.jpeg" alt="kiwi">
+                    <p class="maintxt">Kiwi Conservation →</p>
                 </div>
             </a>
             <a href="schools.html">
                 <div class="mainopt">
-                    <img class="main_img" src="./Te Puia Resources/school2.jpeg"
+                    <img class="main_img" src="./Te_Puia_Resources/school2.jpeg"
                      alt="weaving school">
-                    <p>Carving and Weaving School →</p>
+                    <p class="maintxt">Carving and Weaving School →</p>
                 </div>
             </a>
             <a href="store.html">
                 <div class="mainopt">
                     <img class="main_img" 
-                        src="./Te Puia Resources/greenstone_necklace2.jpg" 
+                        src="./Te_Puia_Resources/greenstone_necklace2.jpg" 
                         alt="kete">
-                    <p>Art Gallery / Gift Shop →</p>
+                    <p class="maintxt">Art Gallery / Gift Shop →</p>
                 </div>
             </a>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <div class="footer_column">
-            <h5>Title Here</h5>
-            <a href="index.html">Home</a>
-            <a href="geo.html">Geothermal Attractions</a>
-            <a href="kiwi.html">Kiwi Conservation</a>
-            <a href="schools.html">Carving and Weaving School</a>
-            <a href="store.html">Art Gallery / Gift Shop</a>
+        <div>
+            <h4>Te Puia</h4>
+            <p>
+                <a href="index.html" class="footer_link">
+                    Home
+                </a>
+                <br>
+                <a href="geo.html" class="footer_link">
+                    Geothermal Attractions
+                </a>
+                <br>
+                <a href="kiwi.html" class="footer_link">
+                    Kiwi Conservation
+                </a>
+                <br>
+                <a href="schools.html" class="footer_link">
+                    Carving and Weaving School
+                </a>
+                <br>
+                <a href="store.html" class="footer_link">
+                    Art Gallery / Gift Shop
+                </a>
+                <br>
+            </p>
         </div>
-        <div class="footer_column">
+        <div>
             <h4>Visit Official Site</h4>
             <a href="https://www.tepuia.com/" 
-                class="footer_button">Visit Site →</a>
+                class="button">Visit Site →</a>
         </div>
     </footer>
 </body>

@@ -9,6 +9,10 @@ body {
 footer {
     background-color: darkred;
     padding: 15px 20px 30px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: whitesmoke;
 }
 
 img {
@@ -16,11 +20,11 @@ img {
 }
 
 p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .hero-image-h {
-    background-image: url("./Te Puia Resources/hero.jpg");
+    background-image: url("./Te_Puia_Resources/hero.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +32,7 @@ p {
 }
 
 .hero-image {
-    background-image: url("./Te Puia Resources/hero.jpg");
+    background-image: url("./Te_Puia_Resources/hero.jpg");
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +40,7 @@ p {
 }
 
 .hero-text {
-    color: rgb(240, 255, 245);
+    color: whitesmoke;
     position: absolute;
     text-align: center;
     top: 250px;
@@ -72,8 +76,14 @@ p {
     text-decoration: none;
 }
 
+.footer_link {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
 #location {
     padding: 4% 8% 4% 8%;
+    background-color: rgb(240, 240, 240);
 }
 
 #location_img {
@@ -84,7 +94,7 @@ p {
     display: grid;
     justify-content: space-around;
     align-content: space-evenly;
-    margin: 50px 5% 15% 5%;
+    margin: 50px 5% 250px 5%;
     gap: 5%;
     grid-template-columns: auto auto auto auto;
     text-decoration: none;
@@ -95,7 +105,14 @@ p {
     color: whitesmoke;
     text-align: center;
     width: 100%;
+    height: 100%;
     padding-bottom: 10px;
+    justify-self: center;
+}
+
+.maintxt {
+    align-self: center;
+    text-decoration: none;
 }
 
 .main_img {
@@ -136,6 +153,21 @@ p {
     text-align: right;
 }
 
+#school_title {
+    text-align: center;
+    margin: 150px 50px 50px 50px;
+}
+
+.grey_grid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 25px;
+    padding: 0px 10px 0px 0px;
+    margin-left: 80px;
+    margin-right: 70px;
+    background-color: rgb(242, 242, 242);
+}
+
 .option_grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -153,15 +185,17 @@ p {
 
 #titletxtgrid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 700px 700px;
     gap: 25px;
     align-content: start;
+    justify-content: center;
     margin: 0px 10% 50px 10%;
 }
 
-.mainheading {
+#mainheading {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 #kiwihouse {
@@ -218,4 +252,11 @@ p {
     text-align: center;
     padding: 40px 12% 45px 12%;
     margin: 50px 2px 50px 2px;
+}
+
+.button {
+    background-color: rgb(55, 104, 160);
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 5px;
 }
